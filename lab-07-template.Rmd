@@ -1,6 +1,6 @@
 ---
 title: "Lab 07 - Modelling course evaluations"
-author: [TEAM NAME]
+author: Github Gremlins
 output: 
   tufte::tufte_html:
     css: ../lab.css
