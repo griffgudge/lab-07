@@ -28,7 +28,9 @@ evals<-read.csv("data/evals.csv", row.names=1)
 ### Exercise 1
 
 ```{r viz-score}
-# add code here
+ggplot(evals,
+       mapping = aes( x = score))+
+  geom_bar()
 ```
 
 *Add your narrative here.*
