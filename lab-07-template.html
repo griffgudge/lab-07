@@ -382,9 +382,9 @@ their teachers positively.</p>
 <span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># this uses the patchwork package loaded above</span></span>
 <span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="co"># learn more about patchwork at https://patchwork.data-imaginist.com/</span></span>
 <span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a><span class="co"># it might be useful for your presentations!</span></span>
-<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>plot_geom_point  <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(___)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>plot_geom_point  <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(evals, <span class="fu">aes</span>(bty_avg, score)) <span class="sc">+</span> <span class="fu">geom_point</span>()</span>
 <span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>plot_geom_jitter <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(___)</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>plot_geom_jitter <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(evals, <span class="fu">aes</span>(bty_avg, score)) <span class="sc">+</span> <span class="fu">geom_jitter</span>()</span>
 <span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>plot_geom_point <span class="sc">+</span> plot_geom_jitter</span></code></pre></div>
 <p><em>Add your narrative here.</em></p>

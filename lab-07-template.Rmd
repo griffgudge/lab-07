@@ -47,9 +47,9 @@ This distribution is skewed as we would expect a normal distribution with and av
 # this uses the patchwork package loaded above
 # learn more about patchwork at https://patchwork.data-imaginist.com/
 # it might be useful for your presentations!
-plot_geom_point  <- ggplot(___)
+plot_geom_point  <- ggplot(evals, aes(bty_avg, score)) + geom_point()
 
-plot_geom_jitter <- ggplot(___)
+plot_geom_jitter <- ggplot(evals, aes(bty_avg, score)) + geom_jitter()
 
 plot_geom_point + plot_geom_jitter
 ```
