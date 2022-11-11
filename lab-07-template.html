@@ -394,9 +394,9 @@ their teachers positively.</p>
 <div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># remove eval = FALSE from the code chunk options after filling in the blanks</span></span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>score_bty_fit <span class="ot">&lt;-</span> <span class="fu">linear_reg</span>() <span class="sc">%&gt;%</span></span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">set_engine</span>(<span class="st">&quot;lm&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fit</span>(___ <span class="sc">~</span> ___, <span class="at">data =</span> ___)</span></code></pre></div>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">fit</span>(score <span class="sc">~</span> bty_avg, <span class="at">data =</span> evals)</span></code></pre></div>
 <div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="co"># remove eval = FALSE from the code chunk options after filling in the blanks</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(___)</span></code></pre></div>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(score_bty_fit)</span></code></pre></div>
 <p><em>Add your linear model here. Don’t worry too much about notation,
 you can use things like score-hat.</em></p>
 </div>
