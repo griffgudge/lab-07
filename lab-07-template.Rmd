@@ -36,7 +36,7 @@ summarise(evals, mean = mean(score), n = n())
 
 ```
 
-*Add your narrative here.*
+This distribution is skewed as we would expect a normal distribution with and average score of 2.5. We can see the distribution however with an average of 4.17 (3.s.f). This tells us that the students are scoring their teachers positively.
 
 ### Exercise 2
 
