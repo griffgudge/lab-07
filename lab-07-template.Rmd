@@ -28,7 +28,12 @@ evals<-read.csv("data/evals.csv", row.names=1)
 ### Exercise 1
 
 ```{r viz-score}
-# add code here
+evals %>%
+  ggplot(aes(score)) + 
+  geom_histogram(bindwidth = 10)
+
+summarise(evals, mean = mean(score), n = n())
+
 ```
 
 *Add your narrative here.*
